@@ -7,17 +7,31 @@ body{
     overflow-x: hidden;
     font-size: 70%;
 }
+.header-container{
+    background-color: rgb(255, 76, 104);
+}
 .main-header{
-    background-color: rgba(238, 10, 10, 0.87);
+    background-color: rgb(255, 76, 104);
     color: #fff;
-    padding: 15px 15%;
+    width: 70%;
+    margin: 0 auto;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 0;
+    /* border: 1px solid #000; */
+}
+.main-header .logo{
+    font-family: ubuntu;
+    font-size: 25px;
 }
 .toggle-bar{
+    display: none;
     position: absolute;
     top: 20px;
     right: 15%;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -43,40 +57,70 @@ body{
 
 }
 .main-header .menu{
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     text-align: center;
-    margin: 5px 0 5px 0;
-    display: none;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
     
 }
 .main-header .menu.active{
-    display: block;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 3s;
+    z-index: 11;
+}
+.main-header .menu ul{
+    padding: 10px;
 }
 .main-header .menu ul li{
-    margin-top: 3px;
-    padding: 2px;
     list-style-type: none;
+    display: inline-block;
+    /* margin-top: 10px; */
 }
 .main-header .menu ul li a{
     color: #ccc;
     opacity: .8;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 11;
+    font-size: 20px;
+    /* margin-top: 10px; */
+    margin-left: 30px;
+    padding: 5px;
+
 
 }
+.first-section{
+    background-color: rgb(255, 76, 104);
+}
 .first-section .content{
-    background-color: rgba(238, 10, 10, 0.87);
+    background-color: rgb(255, 76, 104);
     color: #fff;
-    text-align: center;
-    padding: 20px 0 30px;     
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    height: 95vh;
+    /* padding: 0 0 40px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+
 }
 .first-section .content .text-content{
-    padding: 5px 0;
+    /* padding: 5px 0; */
+    text-align: left;
+}
+.first-section .content .text-content h1{
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 400;
+    width: 60%;
 }
 .first-section .content .mobile-apps{
-    margin-top: 5px;
-    padding: 35px;
+    /* margin-top: 5px; */
+    padding: 35px 0;
 }
 .first-section .content .mobile-apps a{
     color: #fff;
@@ -84,8 +128,9 @@ body{
     font-weight: 100;
     font-size: 11;
     border: 1px solid #fff;
-    padding: 5px 10px;
+    padding: 3% 10%;
     margin-left: 20px;
+    border-radius: 3px;
 }
 .first-section .content .mobile-apps a:nth-child(1){
     margin-left: 0;
@@ -94,17 +139,32 @@ body{
 
 }
 .first-section .content .mobile-img{
-    width: 50vw;
-    margin: 0 auto;
+    position: absolute;
+    flex-basis: 60%;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
 }
 .first-section .content .mobile-img img{
-    width: 100%;
+    width: 70%;
+    transform: rotate(25deg);
 }
 .second-section .content{
     text-align: center;
+    width: 70%;
+    margin: 0 auto;
     padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-section .content .info{
+    padding: 20px;
+    /* margin: 20px; */
 }
 .second-section .content h4{
+    font-size: 30px;
+    font-weight: 100;
     padding: 3px 5px;
     margin-top: 40px;
 }
@@ -112,7 +172,7 @@ body{
     color: #555;
 }
 .third-section .content{
-    background-color: rgba(255, 67, 10, 0.918);
+    background-color: #ef8172;
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -173,7 +233,7 @@ body{
     }
 }
 .fourth-section .content{
-    background-color: rgba(255, 67, 10, 0.918);
+    background-color: #ef8172;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,10 +243,31 @@ body{
     margin: 10px;
     color: #fff;
 }
-
-
-
-
+.fifth-section .content{
+    text-align: center;
+    padding: 40px;
+}
+.plans-section .basics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lab{
+    flex-basis: 40%;
+    border: 1px solid #000;
+}
+.chi{
+    flex-basis: 40%;
+    border: 1px solid #000;
+}
+.mas{
+    border: 1px solid #000;
+    flex-basis: 100%;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+}
 
 
 
