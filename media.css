@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+    .main-header .menu{
+        max-height: 0;
+        flex-basis: 100%;
+        transition: max-height 2s linear;
+    }   
+    .toggle-bar{
+        display: block;
+    } 
+    .main-header .menu ul li{
+        display: block;
+        padding: 10px;
+    }
+    .first-section .content{
+        flex-direction: column;
+    }
+    .first-section .content .text-content{
+        text-align: center;
+    }
+    .first-section .content .text-content h1{
+        width: 100%;
+    }
+    .first-section .content img{
+        position: relative;
+        transform: rotate(0);
+        width: 60%;
+        top: 0;
+        left: 0;
+    }
+}

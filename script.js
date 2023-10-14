@@ -3,5 +3,4 @@ const menuBar = document.querySelector("#menu")
 
 toggleG.addEventListener("click",()=>{
     menuBar.classList.toggle("active")
-    menuBar.focus()
 })
