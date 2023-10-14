@@ -1,4 +1,10 @@
 @media screen and (max-width: 1000px) {
+    .header-container{
+        padding-top: 5px;
+    }
+    .main-header{
+        padding: 10px 0 0;
+    }
     .main-header .menu{
         max-height: 0;
         flex-basis: 100%;
@@ -19,6 +25,8 @@
     }
     .first-section .content .text-content h1{
         width: 100%;
+        line-height: 40px;
+        font-size: 30px;
     }
     .first-section .content img{
         position: relative;
@@ -58,11 +66,25 @@
         font-size: 0.6rem;
         margin-left: 5px;
     }
+    .second-section{
+        padding: 20px;
+    }
     .second-section .content{
         flex-direction: column;
+        padding: 1%;
+    }
+    .second-section .content .info{
+        padding: 5px;
     }
     .second-section .content i{
-        font-size: 2rem;
+        font-size: 1.2rem;
+    }
+    .second-section .content h4{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+    .second-section .content p{
+        font-size: 0.6rem;
     }
     .slide .speaker h4{
         font-size: 1.5rem;
@@ -90,20 +112,27 @@
         font-size: 0.6rem;
         padding: 8px 0 20px;
     }
+    .plans-section .basics div{
+        /* height: 200px; */
+        padding-bottom: 15px;
+        flex-basis: 33%;
+    }
     .plans-section .basics div h4{
         font-size: 1rem;
+        padding: 5px;
     }
     .plans-section .basics div h1{
         font-size: 1.5rem;
+        padding: 10px;
     }
     .plans-section .basics div p{
         font-size: 11px;
+        padding: 5px;
     }
     .plans-section .basics div a{
         white-space: nowrap;
-    }
-    .plans-section .basics .chi{
-        /* width: 80%; */
+        font-size: 0.8rem;
+        padding: 3px;
     }
     .plans-section .basics .chi, .plans-section .basics .lab{
         flex-basis: 40%;
@@ -113,10 +142,19 @@
         flex-basis: 90%;
         width: 100%;
     }
+    .sixth-section{
+        height: 250px;
+    }
     .sixth-section .content h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .sixth-section .content .mobile-apps a{
         display: auto;
+        font-size: .6rem;
+        padding: 0.2rem 0.6rem;
+        margin: 10px 5px 0;
     }
+}
+.seventh-section .content{
+    padding: 40px;
 }
