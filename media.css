@@ -2,7 +2,7 @@
     .main-header .menu{
         max-height: 0;
         flex-basis: 100%;
-        transition: max-height 2s linear;
+        transition: max-height 1s linear;
     }   
     .toggle-bar{
         display: block;
@@ -26,5 +26,97 @@
         width: 60%;
         top: 0;
         left: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .main-header .logo h1{
+        font-size: 1.2rem;
+    }
+    .main-header .menu ul{
+        padding: 5px;
+    }
+    .main-header .menu ul li{
+        margin-top: -20px;
+    }
+    .main-header .menu ul li a{
+        font-size: 0.6rem;
+        margin-left: 0;
+        padding: 0;
+    }
+    .first-section .content{
+        padding: 5% 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .first-section .content .text-content h1{
+        font-size: 1.4rem;
+        line-height: 30px;
+        padding: 5%;
+    }
+    .first-section .content .mobile-apps a{
+        padding: 0.2rem 0.5rem;
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+    .second-section .content{
+        flex-direction: column;
+    }
+    .second-section .content i{
+        font-size: 2rem;
+    }
+    .slide .speaker h4{
+        font-size: 1.5rem;
+    }
+    .slide .speaker img{
+        width: 30px;
+    }
+    .slide .speaker .profile em{
+        font-size: 0.6rem;
+        padding: 3px;
+    }
+    .fourth-section .content{
+        width: 100%;
+    }
+    .fourth-section .content img{
+        width: 100px;
+        margin: 0 auto;
+        /* margin: 0; */
+    }
+    .fifth-section .content h1{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .fifth-section .content p{
+        font-size: 0.6rem;
+        padding: 8px 0 20px;
+    }
+    .plans-section .basics div h4{
+        font-size: 1rem;
+    }
+    .plans-section .basics div h1{
+        font-size: 1.5rem;
+    }
+    .plans-section .basics div p{
+        font-size: 11px;
+    }
+    .plans-section .basics div a{
+        white-space: nowrap;
+    }
+    .plans-section .basics .chi{
+        /* width: 80%; */
+    }
+    .plans-section .basics .chi, .plans-section .basics .lab{
+        flex-basis: 40%;
+    }
+    .plans-section .basics .mas{
+        margin-top: 20px;
+        flex-basis: 90%;
+        width: 100%;
+    }
+    .sixth-section .content h1{
+        font-size: 2rem;
+    }
+    .sixth-section .content .mobile-apps a{
+        display: auto;
     }
 }

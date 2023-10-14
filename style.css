@@ -6,7 +6,6 @@
 }
 body{
     overflow-x: hidden;
-    font-size: 70%;
 }
 .header-container{
     background-color: rgb(255, 76, 104);
@@ -60,10 +59,11 @@ body{
 }
 .main-header .menu.active{
     max-height: 500px;
-    transition: max-height 2s linear;
+    transition: max-height 1s linear;
 }
 .main-header .menu ul{
     padding: 10px;
+    text-align: center;
 }
 .main-header .menu ul li{
     list-style-type: none;
@@ -89,7 +89,6 @@ body{
     color: #fff;
     text-align: left;
     padding: 10% 15%;
-    margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -104,8 +103,10 @@ body{
 .first-section .content .text-content h1{
     font-size: 60px;
     line-height: 90px;
-    font-weight: 400;
+    font-weight: 500;
     width: 60%;
+    /* padding: 5%; */
+    font-family: Montserrat;
 }
 .first-section .content .mobile-apps{
     /* margin-top: 5px; */
@@ -181,10 +182,10 @@ body{
     padding: 30px;
     color: #fff;
     text-align: center;
+    overflow-x: hidden;
 }
 .third-section .content .slide{
     display: flex;
-    overflow-x: hidden;
     width: 300%;
     animation-name: slides;
     animation-duration: 10s;
@@ -194,8 +195,8 @@ body{
     
 }
 .slide .speaker{
-    padding: 3.5rem;
-    width: 1000px;
+    padding: 0 3.5rem;
+    width: 100%;
     margin: 0 auto;
 }
 .slide .speaker h4{
@@ -229,11 +230,8 @@ body{
     40%{
         transform: translateX(0%);
     }
-    45%{
-        transform: translateX(0%);
-    }
     50%{
-        transform: translateX(-33%);
+        transform: translateX(0%);
     }
     60%{
         transform: translateX(-33%);
