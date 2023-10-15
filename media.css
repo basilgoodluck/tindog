@@ -11,7 +11,7 @@
     .main-header .menu{
         max-height: 0;
         flex-basis: 100%;
-        transition: max-height 1s linear;
+        transition: max-height 2s;
     }   
     .toggle-bar{
         display: block;
@@ -54,6 +54,9 @@
     }
     .second-section .content p{
         font-size: 0.8rem;
+    }
+    .third-section i{
+        font-size: 30px;
     }
     .slide .speaker h4{
         font-size: 2rem;
@@ -113,7 +116,7 @@
         height: 1px;
     }
     .first-section .content{
-        padding: 5% 0;
+        padding: 3% 0;
         width: 100%;
         margin: 0 auto;
     }
@@ -123,10 +126,16 @@
         width: 80%;
         margin: 0 auto;
     }
+    .first-section .content .mobile-apps{
+        padding: 10px 0;
+    }
     .first-section .content .mobile-apps a{
         padding: 0.3rem 0.5rem;
         font-size: 0.6rem;
         margin-left: 10px;
+    }
+    .first-section .content img{
+        width: 40%;
     }
     .second-section{
         padding: 20px;
@@ -139,14 +148,17 @@
         padding: 5px;
     }
     .second-section .content i{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     .second-section .content h4{
         margin-top: 8px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .second-section .content p{
         font-size: 0.4rem;
+    }
+    .third-section i{
+        font-size: 16px;
     }
     .slide .speaker h4{
         font-size: 1.2rem;
@@ -267,6 +279,9 @@
     }
     .second-section .content p{
         font-size: 0.6rem;
+    }
+    .third-section i{
+        font-size: 25px;
     }
     .slide .speaker h4{
         font-size: 1.5rem;
