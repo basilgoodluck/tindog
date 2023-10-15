@@ -3,7 +3,10 @@
         padding-top: 5px;
     }
     .main-header{
-        padding: 10px 0 0;
+        padding: 10px 0;
+    }
+    .main-header .logo h1{
+        font-size: 2rem;
     }
     .main-header .menu{
         max-height: 0;
@@ -25,15 +28,68 @@
     }
     .first-section .content .text-content h1{
         width: 100%;
-        line-height: 40px;
         font-size: 30px;
+        line-height: 40px;
+    }
+    .first-section .content .mobile-apps a{
+        font-size: 1rem;
+        margin-left: 10px;
+        padding: 0.3rem 0.5rem;
     }
     .first-section .content img{
         position: relative;
         transform: rotate(0);
-        width: 60%;
+        width: 50%;
         top: 0;
         left: 0;
+    }
+    .second-section .content{
+        width: 100%;
+    }
+    .second-section .content i{
+        font-size: 2.5rem;
+    }
+    .second-section .content h4{
+        font-size: 1rem;
+    }
+    .second-section .content p{
+        font-size: 0.8rem;
+    }
+    .slide .speaker h4{
+        font-size: 2rem;
+    }
+    .slide .speaker img{
+        width: 70px;
+    }
+    .slide .speaker .profile em{
+        padding: 15px;
+    }
+    .fifth-section .content h1{
+        font-size: 2rem;
+    }
+    .fifth-section .content p{
+        font-size: 0.8rem;
+    }
+    .plans-section .basics div h4{
+        font-size: 1.2rem;
+    }
+    .plans-section .basics div h1{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .plans-section .basics div p{
+        font-size: 14px;
+    }
+    .plans-section .basics div a{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .sixth-section .content h1{
+        font-size: 2rem;
+    }
+    .sixth-section .content .mobile-apps a{
+        font-size: 1rem;
+        padding: 0.3rem 0.8rem;
     }
 }
 @media screen and (max-width: 500px){
@@ -51,20 +107,26 @@
         margin-left: 0;
         padding: 0;
     }
+    .row{
+        width: 15px;
+        margin: 1.5px;
+        height: 1px;
+    }
     .first-section .content{
         padding: 5% 0;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
     .first-section .content .text-content h1{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 30px;
-        padding: 5%;
+        width: 80%;
+        margin: 0 auto;
     }
     .first-section .content .mobile-apps a{
-        padding: 0.2rem 0.5rem;
+        padding: 0.3rem 0.5rem;
         font-size: 0.6rem;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .second-section{
         padding: 20px;
@@ -77,17 +139,17 @@
         padding: 5px;
     }
     .second-section .content i{
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
     .second-section .content h4{
-        margin-top: 10px;
+        margin-top: 8px;
         font-size: 0.8rem;
     }
     .second-section .content p{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
     }
     .slide .speaker h4{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .slide .speaker img{
         width: 30px;
@@ -105,33 +167,33 @@
         /* margin: 0; */
     }
     .fifth-section .content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 0;
     }
     .fifth-section .content p{
-        font-size: 0.6rem;
-        padding: 8px 0 20px;
+        font-size: 0.4rem;
+        padding: 4px 0 10px;
     }
     .plans-section .basics div{
         /* height: 200px; */
         padding-bottom: 15px;
-        flex-basis: 33%;
+        flex-basis: 40%;
     }
     .plans-section .basics div h4{
-        font-size: 1rem;
+        font-size: .8rem;
         padding: 5px;
     }
     .plans-section .basics div h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 10px;
     }
     .plans-section .basics div p{
-        font-size: 11px;
+        font-size: 10px;
         padding: 5px;
     }
     .plans-section .basics div a{
         white-space: nowrap;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 3px;
     }
     .plans-section .basics .chi, .plans-section .basics .lab{
@@ -146,7 +208,7 @@
         height: 250px;
     }
     .sixth-section .content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .sixth-section .content .mobile-apps a{
         display: auto;
@@ -154,7 +216,127 @@
         padding: 0.2rem 0.6rem;
         margin: 10px 5px 0;
     }
+    .seventh-section .content{
+        padding: 40px;
+    }
+    .seventh-section .content p, .seventh-section .content a{
+        font-size: 10px;
+    }
 }
-.seventh-section .content{
-    padding: 40px;
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    .main-header .logo h1{
+        font-size: 2rem;
+    }
+    .main-header .menu ul{
+        padding: 0;
+    }
+    .row{
+        width: 20px;
+        height: 1.5px;
+        margin: 1.5px;
+    }
+    .first-section .content{
+        padding: 5% 10%;
+    }
+    .first-section .content .text-content h1{
+        font-size: 1.2rem;
+        line-height: 30px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .first-section .content .mobile-apps a{
+        padding: 0.4rem 0.6rem;
+        font-size: .8rem;
+    }
+    .first-section .content img{
+        width: 250px;
+    }
+    .second-section .content{
+        width: 100%;
+        padding: 0;
+    }
+    .second-section .content .info{
+        padding: 10px;
+    }
+    .second-section .content i{
+        font-size: 2rem;
+    }
+    .second-section .content h4{
+        font-size: .8rem;
+        margin-top: 10px;
+    }
+    .second-section .content p{
+        font-size: 0.6rem;
+    }
+    .slide .speaker h4{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .slide .speaker img{
+        width: 70px;
+    }
+    .slide .speaker .profile em{
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .fourth-section .content{
+        width: 100%;
+        padding: 20px 40px;
+    }
+    .fourth-section .content img{
+        width: 100%;
+    }
+    .fifth-section .content h1{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .fifth-section .content p{
+        font-size: 0.6rem;
+        padding: 10px 0 20px ;
+    }
+    .plans-section .basics div{
+        padding-bottom: 20px;
+    }
+    .plans-section .basics .lab, .plans-section .basics .chi{
+        flex-basis: 40%;
+    }
+    .plans-section .basics .mas{
+        flex-basis: 90%;
+        margin-top: 20px;
+    }
+    .plans-section .basics div h4{
+        font-size: 1rem;
+        padding: .7rem;
+    }
+    .plans-section .basics div h1{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .plans-section .basics div p{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .plans-section .basics div a{
+        padding: 5px;
+        font-size: .8rem;
+    }
+    .sixth-section{
+        height: 300px;
+    }
+    .sixth-section .content h1{
+        font-size: 1.5rem;
+    }
+    .sixth-section .content .mobile-apps a{
+        padding: 0.3rem 0.5rem;
+        font-size: 0.6rem;
+        margin-left: 10px;
+    }
+    .seventh-section .content a{
+        font-size: 14px;
+        margin: 15px;
+    }
+    .seventh-section .content p{
+        font-size: 14px;
+    }
+
 }
