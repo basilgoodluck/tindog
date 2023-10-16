@@ -47,7 +47,6 @@ body{
     height: 2px;
     margin: 3px;
     background-color: #eee;
-    display: block;
     position: relative;
 
 }
@@ -113,6 +112,7 @@ body{
     padding: 35px 0;
 }
 .first-section .content .mobile-apps a{
+    display: inline-block;
     color: #fff;
     text-decoration: none;
     border: 1px solid #fff;
@@ -121,6 +121,7 @@ body{
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
+    text-align: center;
 }
 .first-section .content .mobile-apps a:nth-child(1){
     margin-left: 0;
@@ -166,11 +167,13 @@ body{
 }
 .second-section .content h4{
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 3px 5px;
     margin-top: 40px;
+    font-family: Montserrat
 }
 .second-section .content p{
+    font-family: Montserrat;
     color: #555;
     font-size: 1rem;
 }
@@ -178,94 +181,29 @@ body{
     background-color: #ef8172;
     position: relative;
 }
-.third-section .content{
-    background-color: #ef8172;
-    padding: 30px;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    overflow-x: hidden;
-}
-.third-section .prev, .third-section .next{
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translateY(-50%);
-    font-size: 40px;
-    cursor: pointer;
-    color: #fff;
-}
-.third-section .prev{
-    left: 10%;
-}
-.third-section .content .slide{
-    display: flex;
-    width: 300%;
-    animation: slides 8s infinite linear;
-    
-    
-}
-.slide .speaker{
+
+.third-section .speaker{
     padding: 0 3.5rem;
     width: 100%;
     margin: 0 auto;
-    transition: transform 1s ease;
 }
-.slide .speaker h4{
+.third-section .speaker h4{
     font-size: 2.5rem;
     padding:  2% 10%;
     font-weight: 100;
 }
-.slide .speaker img{
+.third-section .speaker img{
     width: 100px;
     border-radius: 50%;
 }
-.slide .speaker .profile{
+.third-section .speaker .profile{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.slide .speaker .profile em{
+.third-section .speaker .profile em{
     font-size: 1.2rem;
     padding: 30px;
-}
-@keyframes slides {
-    0%{
-        transform: translateX(0%);
-    }
-    20%{
-        transform: translateX(0%);
-    }
-    30%{
-        transform: translateX(0%);
-    }
-    40%{
-        transform: translateX(0%);
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    58%{
-        transform: translateX(0%);
-    }
-    60%{
-        transform: translateX(-33%);
-    }
-    70%{
-        transform: translateX(-33%);
-    }
-    80%{
-        transform: translateX(-33%);
-    }
-    90%{
-        transform: translateX(-33%);
-    }
-    98%{
-        transform: translateX(-33%);
-    }
-    100%{
-        transform: translateX(-67%);
-    }
 }
 .fourth-section{
     background-color: #ef8172;

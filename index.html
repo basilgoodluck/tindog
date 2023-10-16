@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/ed1d857184.js" crossorigin="anonymous"></script>
     <title>tindog</title>
@@ -60,34 +61,45 @@
         </div>
     </div>
     <div class="third-section">
-        <div class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-        <div class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-        <div class="content">
-            
-            <div class="slide" id="slide">
-                <div class="speaker no1">
-                    <h4>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h4>
-                    <div class="profile">
-                        <img src="/DAVEWORLD.png" alt="DAVEWORLD">
-                        <em>DAVEWORLD, Lagos Nigeria</em>
-                    </div>
-                </div>
-                <div class="speaker no2">
-                    <h4>My dog used to be so lonely but with TinDog's help, they've found the love of their life. I think.</h4>
-                    <div class="profile">
-                        <img src="/petros.jpg" alt="PETROS">
-                        <em>Petros, Ibadan Nigeria</em>
-                    </div>
-                </div>
-                <div class="speaker no1">
-                    <h4>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h4>
-                    <div class="profile">
-                        <img src="/DAVEWORLD.png" alt="DAVEWORLD">
-                        <em>DAVEWORLD, Lagos Nigeria</em>
-                    </div>
-                </div>                
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="speaker no1 d-block w-100">
+            <h4>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h4>
+            <div class="profile">
+                <img src="/DAVEWORLD.png" alt="DAVEWORLD">
+                <em>DAVEWORLD, Lagos Nigeria</em>
             </div>
         </div>
+      </div>
+      <div class="carousel-item">
+        <div class="speaker no2 d-block w-100">
+            <h4>My dog used to be so lonely but with TinDog's help, they've found the love of their life. I think.</h4>
+            <div class="profile">
+                <img src="/petros.jpg" alt="PETROS">
+                <em>Petros, Ibadan Nigeria</em>
+            </div>
+        </div>  
+      </div>
+      <div class="carousel-item active">
+        <div class="speaker no1 d-block w-100">
+            <h4>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h4>
+            <div class="profile">
+                <img src="/DAVEWORLD.png" alt="DAVEWORLD">
+                <em>DAVEWORLD, Lagos Nigeria</em>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
     </div>
     <div class="fourth-section">
         <div class="content">
@@ -153,3 +165,5 @@
     
 </body>
 </html>
+
+
