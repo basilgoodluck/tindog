@@ -13,8 +13,8 @@
         flex-basis: 100%;
         transition: max-height 2s;
     }   
-    .toggle-bar{
-        display: block;
+    .toggle-bar-icon-fa{
+        display: inline-block;
     } 
     .main-header .menu ul li{
         display: block;
@@ -42,6 +42,7 @@
         width: 50%;
         top: 0;
         left: 0;
+        margin-bottom: 20px;
     }
     .second-section .content{
         width: 100%;
@@ -110,20 +111,15 @@
         margin-left: 0;
         padding: 0;
     }
-    .row{
-        width: 15px;
-        margin: 2px 3px;
-        height: 1px;
-    }
     .first-section .content{
         padding: 3% 0;
         width: 100%;
         margin: 0 auto;
     }
     .first-section .content .text-content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 30px;
-        width: 70%;
+        width: 75%;
         margin: 0 auto 10px;
     }
     .first-section .content .mobile-apps{
@@ -148,7 +144,7 @@
         padding: 5px;
     }
     .second-section .content i{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .second-section .content h4{
         margin-top: 8px;
@@ -241,11 +237,6 @@
     }
     .main-header .menu ul{
         padding: 0;
-    }
-    .row{
-        width: 20px;
-        height: 1.5px;
-        margin: 1.5px;
     }
     .first-section .content{
         padding: 5% 10%;
